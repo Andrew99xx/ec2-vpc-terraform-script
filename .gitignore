@@ -1,0 +1,48 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Terraform plan output files
+*.tfout
+
+# Crash logs
+crash.log
+
+# Sensitive variable files (optional, if you use them)
+*.tfvars
+
+# PEM or private keys
+*.pem
+*.key
+
+# override files (used for local-only config overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore any sensitive auto-generated secrets
+*.auto.tfvars
+*.td
+*.lock.hcl
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS metadata
+.DS_Store
+
+# Linux file system trash
+.Trash-*
+
+# Windows file system files
+Thumbs.db
+desktop.ini
+tfout
+tfplan
